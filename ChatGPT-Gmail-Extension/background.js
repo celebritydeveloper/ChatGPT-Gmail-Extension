@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener(function (content, sender, sendResponse) {
 	(async function () {
 		const url = "https://chat.openai.com/*";
 		const tabs = await chrome.tabs.query({
-			url, // url: url,
+			url,
 		});
 
 		if (tabs.length == 0) {

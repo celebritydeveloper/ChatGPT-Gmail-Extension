@@ -1,10 +1,10 @@
 {
 	"manifest_version": 3,
 
-	"name": "ChatGPT Gmail Bot",
+	"name": "Gmail Reply Bot",
 	"description": "Write Emails Automatically for Incoming Emails for you, using ChatGPT",
 	"version": "1.0.0",
-	"author": "Raghav Rathi",
+	"author": "Saviour Essien",
 
 	"action": {
 		"default_popup": "index.html"

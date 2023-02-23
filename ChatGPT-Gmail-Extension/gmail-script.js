@@ -12,6 +12,7 @@ window.onload = function () {
 				if (span.innerText === "Reply") {
 					span.addEventListener("click", function () {
 						console.log("Clicked Reply Button !!!");
+						
 
 						const content = {
 							email_id: window.location.hash,
